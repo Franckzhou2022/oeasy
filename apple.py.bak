@@ -1,0 +1,11 @@
+#!/usr/bin/python3
+#print("how many apples do you have?")
+a = input("how many apples do you have?")
+print("You have got " + a + " apples!" )
+b = input("how many banana  do you have?")
+print("You have got " + a + " bananas!" )
+try:
+    total = int(a) + int(b)
+    print("You have got " + str(total) + " fruits in all!" )
+except:
+    print("\33[41m[error]\33[0m -----Input numbers!!!")

@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-import input
+import get_fruits
 try:
-    total = input.a + input.b
+    total = get_fruits.a + get_fruits.b
 except:
     print("\33[41m[Error]\33[0m can not add a,b")

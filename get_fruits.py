@@ -2,20 +2,20 @@
 '''
 input number of apples.
 '''
-a = input("how many apples do you have?")
+s_apple = input("how many apples do you have?")
 try:
-    a = int(a) # change a from string to intiger
+    i_apple = int(s_apple) # change a from string to intiger
 except:
-    print("\33[41m[error]\33[0m" , a , "NAN")
+    print("\33[41m[error]\33[0m" , s_apple , "NAN")
 else:
-    print("You have got " , a , " apples!" )
+    print("You have got " , i_apple , " apples!" )
 '''
 input number of bananas.
 '''
-b = input("how many banana  do you have?")
+s_banana = input("how many banana  do you have?")
 try:
-    b = int(b) #change b from string to intiger.
+    i_banana = int(s_banana) #change b from string to intiger.
 except:
-    print("\33[41m[error]\33[0m" , b,"NAN")
+    print("\33[41m[error]\33[0m" , s_banana ,"NAN")
 else:
-    print("You have got " , b , " bananas!" )
+    print("You have got " , i_banana, " bananas!" )
